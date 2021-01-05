@@ -8,6 +8,7 @@ function artFiles() {
 function placesPostType() {
   register_post_type('place', array(
     'public' => true,
+    'show_in_rest' => true,
     'labels' => array(
       'name' => 'Places',
       'add_new_item' => 'Add a New Place',
@@ -22,6 +23,7 @@ function placesPostType() {
 function artistsPostType() {
   register_post_type('artist', array(
     'public' => true,
+    'show_in_rest' => true,
     'labels' => array(
       'name' => 'Artists',
       'add_new_item' => 'Add a New Artist',
@@ -36,6 +38,7 @@ function artistsPostType() {
 function artPostType() {
   register_post_type('art', array(
     'public' => true,
+    'show_in_rest' => true,
     'labels' => array(
       'name' => 'Art',
       'add_new_item' => 'Add New Art',
