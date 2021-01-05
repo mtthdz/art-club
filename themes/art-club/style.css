@@ -5,3 +5,9 @@
 */
 
 @import "modules/normalize.css";
+
+/* import test */
+body {
+  background-color: black;
+  color: white;
+}
