@@ -28,15 +28,15 @@ function post_types() {
     'menu_icon' => 'dashicons-admin-users'    
   ));
 
-  register_post_type('art', array(
+  register_post_type('artwork', array(
     'public' => true,
     'show_in_rest' => true,
     'labels' => array(
-      'name' => 'Art',
-      'add_new_item' => 'Add New Art',
-      'edit_item' => 'Edit Art',
-      'all_items' => 'All Art',
-      'singular_name' => 'Art'
+      'name' => 'Artwork',
+      'add_new_item' => 'Add New Artwork',
+      'edit_item' => 'Edit Artwork',
+      'all_items' => 'All Artwork',
+      'singular_name' => 'Artwork'
     ),
     'menu_icon' => 'dashicons-admin-customizer'    
   ));
