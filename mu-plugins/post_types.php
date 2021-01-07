@@ -18,6 +18,8 @@ function post_types() {
   ));
 
   register_post_type('artist', array(
+    'rewrite' => array('slug' => 'artists'),
+    'has_archive' => true,
     'public' => true,
     'show_in_rest' => true,
     'labels' => array(
@@ -30,18 +32,18 @@ function post_types() {
     'menu_icon' => 'dashicons-admin-users'    
   ));
 
-  register_post_type('artwork', array(
-    'public' => true,
-    'show_in_rest' => true,
-    'labels' => array(
-      'name' => 'Artwork',
-      'add_new_item' => 'Add New Artwork',
-      'edit_item' => 'Edit Artwork',
-      'all_items' => 'All Artwork',
-      'singular_name' => 'Artwork'
-    ),
-    'menu_icon' => 'dashicons-admin-customizer'    
-  ));
+  // register_post_type('artwork', array(
+  //   'public' => true,
+  //   'show_in_rest' => true,
+  //   'labels' => array(
+  //     'name' => 'Artwork',
+  //     'add_new_item' => 'Add New Artwork',
+  //     'edit_item' => 'Edit Artwork',
+  //     'all_items' => 'All Artwork',
+  //     'singular_name' => 'Artwork'
+  //   ),
+  //   'menu_icon' => 'dashicons-admin-customizer'    
+  // ));
 }
 
 add_action('init', 'post_types');

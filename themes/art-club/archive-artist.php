@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-this is the place archive.
+this is the artist archive.
 
 <?php get_footer(); ?>
