@@ -19,6 +19,7 @@ function post_types() {
   ));
 
   register_post_type('artist', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
     'rewrite' => array('slug' => 'artists'),
     'has_archive' => true,
     'public' => true,

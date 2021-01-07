@@ -1,14 +1,20 @@
-<?php 
-  get_header(); 
+<?php get_header(); ?>
 
-  while(have_posts()) {
-    the_post(); ?>
+<section class="places__gallery">
 
-    <div class="image"><?php the_post_thumbnail('large'); ?></div>
+  <?php while(have_posts()) {
+    // pulls in all post data
+    the_post(); 
+    // global $post;
+    // print_r($post);
+    ?>
+
+    <div class="image"><?php the_post_thumbnail('medium'); ?></div>
     <div class="image--overlay">
       <a href="<?php the_permalink(); ?>" class="image__link">the link</a>
     </div>
-  <?php };
-?>
+  <?php }; ?>
+
+</section>
 
 <?php get_footer(); ?>
