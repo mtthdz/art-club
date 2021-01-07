@@ -1,4 +1,6 @@
+  <footer class="wrapper">
     <p>footer</p>
+  </footer>
 
   <?php wp_footer(); ?>
   </body>
