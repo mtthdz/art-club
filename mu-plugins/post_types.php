@@ -3,6 +3,7 @@
 function post_types() {
 
   register_post_type('place', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
     'rewrite' => array('slug' => 'places'),
     'has_archive' => true,
     'public' => true,
