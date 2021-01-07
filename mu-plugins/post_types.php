@@ -3,6 +3,8 @@
 function post_types() {
 
   register_post_type('place', array(
+    'rewrite' => array('slug' => 'places'),
+    'has_archive' => true,
     'public' => true,
     'show_in_rest' => true,
     'labels' => array(
