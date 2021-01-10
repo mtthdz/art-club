@@ -8,7 +8,7 @@
 // this will keep the post type layouts unique without requiring two different archives
 ?>
 
-<section class="places__gallery">
+<section class="places__gallery wrapper">
 
   <?php while(have_posts()) {
     // pulls in all post data
