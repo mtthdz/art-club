@@ -5,9 +5,4 @@
 */
 
 @import "styles/modules/normalize.css";
-
-/* import test */
-body {
-  background-color: black;
-  color: white;
-}
+@import "styles/modules/general.css";
