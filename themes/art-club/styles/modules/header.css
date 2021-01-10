@@ -1,0 +1,27 @@
+/* parent child relationship */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.header__title {
+  font-size: 2.0rem;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+/* navigation */
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  font-size: 1.4rem;
+  margin-left: 20px;
+}
