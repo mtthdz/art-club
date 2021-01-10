@@ -7,25 +7,16 @@
 
 <section class="aside wrapper">
   <?php
-    $relatedArtists = new WP_Query(array(
-      'post_type' => 'place',
-      'posts_per_page' => -1,
-      'meta_query' => array(
-        array(
-          'key' => 'location',
-          'compare' => 'LIKE',
-          'value' => get_the_ID()
-        )
-      )
-    ));
+    // location is the key used in the WP_Query in single-place
+    $relatedPlaces = get_field('location');
 
-    while($relatedArtists->have_posts()) {
-      $relatedArtists->the_post();?>
-      <div class="test">
-        <div class="artist__image"><?php the_post_thumbnail('medium'); ?></div>
-        <h2 class="artist__name"><?php the_title(); ?></h2>
-      </div>
-    <?php } 
+    if($relatedPlaces) {
+      echo '<h2>Artwork found at:</h2>';
+
+      foreach($relatedPlaces as $place) { ?>
+        <a href="<?php echo get_the_permalink($place); ?>"><?php echo get_the_title($place); ?></a>
+      <?php }
+    }
   ?>
 </section>
 
