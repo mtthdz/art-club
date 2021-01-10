@@ -4,7 +4,7 @@
   Version: 1.0
 */
 
-@import "modules/normalize.css";
+@import "styles/modules/normalize.css";
 
 /* import test */
 body {
