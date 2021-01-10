@@ -20,9 +20,12 @@
 
     while($relatedArtists->have_posts()) {
       $relatedArtists->the_post();?>
-      <div class="test">
-        <div class="artist__image"><?php the_post_thumbnail('medium'); ?></div>
-        <h2 class="artist__name"><?php the_title(); ?></h2>
+      
+      <div class="artist__card">
+        <a href="<?php the_permalink(); ?>" class="artist__link">
+          <div class="artist__image"><?php the_post_thumbnail('medium'); ?></div>
+          <h2 class="artist__name"><?php the_title(); ?></h2>
+        </a>
       </div>
     <?php } 
   ?>
