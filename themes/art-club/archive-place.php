@@ -14,9 +14,9 @@
     the_post(); ?>
 
     <div class="place__card">
-      <a href="<?php the_permalink(); ?>" class="place__link">
         <div class="place__image"><?php the_post_thumbnail(); ?></div>
-      </a>
+        <h2 class="place__name"><?php the_title(); ?></h2>
+        <a href="<?php the_permalink(); ?>" class="place__link">Read more</a>
     </div>
   <?php }; ?>
 

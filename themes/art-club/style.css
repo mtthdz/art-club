@@ -6,6 +6,8 @@
 
 @import "styles/modules/normalize.css";
 @import "styles/modules/general.css";
+
 @import "styles/modules/header.css";
+@import "styles/modules/places.css";
 
 

@@ -1,0 +1,40 @@
+/* TODO
+  create masonry layout
+*/
+
+.places__gallery {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.place__card {
+  width: calc(50% - 10px);
+  /* height: 100%; */
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.place__card:nth-child(1),
+.place__card:nth-child(3) {
+  margin-right: 20px;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  /* width: 100%; */
+  /* max-height: 700px; */
+}
+
+.place__name {
+  font-size: 2.0rem;
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.place__link {
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
+
