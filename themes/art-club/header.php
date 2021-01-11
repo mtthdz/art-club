@@ -21,7 +21,9 @@
         <li class="nav__item">
           <a href="<?php echo get_post_type_archive_link('artist') ?>" class="nav__link">Arists</a>
         </li>
-        <!-- <li class="nav__item"><a href="#" class="nav__link">Artwork</a></li> -->
+        <li class="nav__item">
+          <a href="<?php echo site_url() ?>" class="nav__link">About</a>
+        </li>
       </ul>
     </nav>
   </header>
