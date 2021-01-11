@@ -2,17 +2,19 @@
 .artist__gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 500px;
+  /* grid-template-rows: 500px; */
   gap: 40px;
   justify-content: stretch;
 }
 
-.artist__card {
-
+.artist__name {
+  font-size: 2.0rem;
+  margin: 40px 0 10px 0;
 }
 
 .artist__link {
-  
+  font-size: 1.6rem;
+  text-decoration: underline;
 }
 
 
