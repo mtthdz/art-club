@@ -2,6 +2,7 @@
   create masonry layout
 */
 
+/* places archive page styling */
 .places__gallery {
   display: flex;
   /* justify-content: space-between; */
@@ -38,3 +39,38 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
   text-decoration: underline;
 }
 
+
+/* single place page styling */
+.main p {
+  width: 50%;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+.related__artists {
+  margin: 50px auto;
+  width: 60%;
+}
+
+.gallery__title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.related__artists-gallery {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.artist__card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artist__link {
+  margin-top: 10px;
+}

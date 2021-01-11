@@ -19,3 +19,29 @@
 
 
 /* single artist page styling */
+.artist__about {
+  width: 50%;
+}
+
+.artist__about h2 {
+  margin: 50px auto 30px auto;
+}
+
+.artist__about p {
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+
+.artist__about {
+  width: 50%;
+}
+
+.related__section {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.section__title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}

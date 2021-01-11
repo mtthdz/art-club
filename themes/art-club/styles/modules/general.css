@@ -40,3 +40,11 @@ a:focus {
   width: 90%;
   max-width: 1400px;
 }
+
+.secondary__nav {
+  margin-bottom: 50px;
+}
+
+.back__link {
+  font-size: 1.4rem;
+}

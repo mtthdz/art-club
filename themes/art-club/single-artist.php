@@ -1,22 +1,30 @@
 <?php get_header(); ?>
 
-<section class="main wrapper">
-  <div class="artist__image"><?php the_post_thumbnail(); ?></div>
+<section class="secondary__nav wrapper">
+  <a href="" class="back__link">< back</a>
+</section>
+
+<section class="artist__about wrapper">
   <?php the_content(); ?>
 </section>
 
-<section class="aside wrapper">
+<section class="related__section wrapper">
   <?php
     // location is the key used in the WP_Query in single-place
     $relatedPlaces = get_field('location');
 
     if($relatedPlaces) {
-      echo '<h2>Artwork found at:</h2>';
+      echo '<h3 class="section__title">Artwork found at:</h3>';
+      echo '<ul class="related-place__list">';
 
       foreach($relatedPlaces as $place) { ?>
-        <a href="<?php echo get_the_permalink($place); ?>"><?php echo get_the_title($place); ?></a>
+        <li class="related-place__item">
+          <a class="related-place__link" href="<?php echo get_the_permalink($place); ?>"><?php echo get_the_title($place); ?></a>
+        </li>
       <?php }
-    }
+
+        echo '</ul>';
+      }
   ?>
 </section>
 
