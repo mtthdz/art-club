@@ -13,11 +13,9 @@
   <?php while(have_posts()) {
     the_post(); ?>
 
-    <!-- figure out how to import images with img tag -->
-    <!-- without the alt tag spilling out as text on the page -->
     <div class="place__card">
       <a href="<?php the_permalink(); ?>" class="place__link">
-        <div class="place__image"><?php the_post_thumbnail('large'); ?></div>
+        <div class="place__image"><?php the_post_thumbnail(); ?></div>
       </a>
     </div>
   <?php }; ?>

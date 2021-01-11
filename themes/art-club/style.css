@@ -9,10 +9,3 @@
 @import "styles/modules/header.css";
 
 
-.place__card {
-  width: 400px;
-}
-
-.place__image {
-  width: 100%;
-}
