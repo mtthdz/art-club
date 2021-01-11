@@ -14,10 +14,9 @@
     the_post(); ?>
     
     <div class="artist__card">
-      <a href="<?php the_permalink(); ?>" class="artist__link">
-        <div class="artist__image"><?php the_post_thumbnail('medium'); ?></div>
-        <h2 class="artist__name"><?php the_title(); ?></h2>
-      </a>
+      <div class="artist__image"><?php the_post_thumbnail(); ?></div>
+      <h2 class="artist__name"><?php the_title(); ?></h2>
+      <a href="<?php the_permalink(); ?>" class="artist__link">Read more</a>
     </div>
   <?php }; ?>
 

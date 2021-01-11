@@ -4,10 +4,14 @@
   Version: 1.0
 */
 
+/* overall styling */
 @import "styles/modules/normalize.css";
 @import "styles/modules/general.css";
-
 @import "styles/modules/header.css";
+
+/* page dependent styling */
 @import "styles/modules/places.css";
+@import "styles/modules/artists.css";
+
 
 
