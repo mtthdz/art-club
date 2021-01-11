@@ -42,7 +42,7 @@ a:focus {
 }
 
 .secondary__nav {
-  margin-bottom: 50px;
+  margin: 20px auto 40px auto;
 }
 
 .back__link {

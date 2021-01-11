@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="secondary__nav wrapper">
-  <a href="" class="back__link">< back</a>
+  <a href="javascript:window.history.back();" class="back__link">< back</a>
 </section>
 
 <section class="artist__about wrapper">

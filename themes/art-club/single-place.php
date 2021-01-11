@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<section class="secondary__nav wrapper">
+  <a href="javascript:window.history.back();" class="back__link">< back</a>
+</section>
+
 <section class="main wrapper">
   <p class="main__content"><?php the_content(); ?></p>
   <?php 

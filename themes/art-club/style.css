@@ -8,6 +8,7 @@
 @import "styles/modules/normalize.css";
 @import "styles/modules/general.css";
 @import "styles/modules/header.css";
+@import "styles/modules/footer.css";
 
 /* page dependent styling */
 @import "styles/modules/places.css";
