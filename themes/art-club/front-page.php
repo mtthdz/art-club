@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
-<p>this is the homepage.</p>
+<section class="about wrapper">
+  <?php the_content(); ?>
+</section>
 
 <?php get_footer(); ?>

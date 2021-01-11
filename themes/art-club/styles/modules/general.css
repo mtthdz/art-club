@@ -48,3 +48,8 @@ a:focus {
 .back__link {
   font-size: 1.4rem;
 }
+
+figcaption {
+  color: #5b5b5b;
+  font-size: 1.4rem;
+}

@@ -1,10 +1,14 @@
 /* artist archive page styling */
 .artist__gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: 500px; */
-  gap: 40px;
-  justify-content: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.artist__card {
+  width: 300px;
+  margin-bottom: 50px;
 }
 
 .artist__name {
