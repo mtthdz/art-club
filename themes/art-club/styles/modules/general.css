@@ -35,6 +35,11 @@ a:focus {
   transition: all 0.5s ease;
 }
 
+figcaption {
+  color: #5b5b5b;
+  font-size: 1.4rem;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 90%;
@@ -49,7 +54,12 @@ a:focus {
   font-size: 1.4rem;
 }
 
-figcaption {
-  color: #5b5b5b;
-  font-size: 1.4rem;
+/* 404 styling */
+.four-oh-four__title {
+  font-size: 4.0rem;
+  margin-bottom: 30px;
+}
+
+.four-oh-four__link {
+  text-decoration: underline;
 }

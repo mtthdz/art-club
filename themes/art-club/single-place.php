@@ -36,9 +36,9 @@
       while($relatedArtists->have_posts()) {
         $relatedArtists->the_post();?>
 
-        <div class="artist__card">
-          <div class="artist__image"><?php the_post_thumbnail(); ?></div>
-          <a href="<?php the_permalink(); ?>" class="artist__link"><?php the_title(); ?></a>
+        <div class="related__artist-card">
+          <div class="related__artist-image"><?php the_post_thumbnail(); ?></div>
+          <a href="<?php the_permalink(); ?>" class="related__artist-link"><?php the_title(); ?></a>
         </div>
     <?php } 
       echo '</div>';

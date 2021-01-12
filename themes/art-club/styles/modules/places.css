@@ -48,7 +48,7 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
 
 .related__artists {
   margin: 50px auto;
-  width: 60%;
+  width: 70%;
 }
 
 .gallery__title {
@@ -60,16 +60,19 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
 
 .related__artists-gallery {
   display: flex;
-  justify-content: space-around;
-  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
 }
 
-.artist__card {
-  width: 200px;
+.related__artist-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 30px;
 }
-.artist__link {
+.related__artist-link {
   margin-top: 10px;
+}
+
+.related__artist-image {
+  width: 200px;
 }
