@@ -23,10 +23,6 @@
 
 
 /* single artist page styling */
-.artist__about {
-  width: 50%;
-}
-
 .artist__about h2 {
   margin: 50px auto 30px auto;
 }

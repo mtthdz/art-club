@@ -1,0 +1,37 @@
+@media(max-width: 999px) {
+  /* artists archive */
+  .artist__card {
+    width: 400px;
+  }
+}
+
+@media(max-width: 888px) {
+  /* artists archive */
+  .artist__gallery {
+    justify-content: center;
+  }
+
+  .artist__card {
+    width: 500px;
+  }
+}
+
+@media(max-width: 700px) {
+  .artist__about,
+  .related__section,
+  .place p,
+  .about {
+    width: 70%;
+  }
+
+  .related__artists {
+    width: 80%;
+  }
+}
+
+@media(max-width: 600px) {
+  /* places archive */
+  .place__card {
+    width: 100%;
+  }
+}

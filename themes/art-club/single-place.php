@@ -4,8 +4,8 @@
   <a href="javascript:window.history.back();" class="back__link">< back</a>
 </section>
 
-<section class="main wrapper">
-  <p class="main__content"><?php the_content(); ?></p>
+<section class="place wrapper">
+  <p class="place__content"><?php the_content(); ?></p>
   <?php 
       // pulls in all post data
     // the_post(); 
