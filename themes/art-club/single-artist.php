@@ -4,10 +4,12 @@
   <a href="javascript:window.history.back();" class="back__link">< back</a>
 </section>
 
+<!-- main content -->
 <section class="artist__about wrapper">
   <?php the_content(); ?>
 </section>
 
+<!-- related post type content -->
 <section class="related__section wrapper">
   <?php
     // location is the key used in the WP_Query in single-place

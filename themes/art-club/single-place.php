@@ -4,19 +4,14 @@
   <a href="javascript:window.history.back();" class="back__link">< back</a>
 </section>
 
+<!-- main content -->
 <section class="place wrapper">
-  <p class="place__content"><?php the_content(); ?></p>
-  <?php 
-      // pulls in all post data
-    // the_post(); 
-    // global $post;
-    // print_r($post);
-  ?>
+  <?php the_content(); ?>
 </section>
 
+<!-- related post type content -->
 <section class="related__artists wrapper">
-  <!-- artist card -->
-  <!-- query all related artists -->
+  <!-- artist card query -->
   <?php
     $relatedArtists = new WP_Query(array(
       'post_type' => 'artist',
